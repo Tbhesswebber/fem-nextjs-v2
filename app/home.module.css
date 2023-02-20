@@ -1,0 +1,16 @@
+.primaryNav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 16px;
+}
+
+.navLink {
+  color: currentColor;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.navLink.current {
+  border-bottom: 2px solid var(--color-primary);
+}
