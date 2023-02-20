@@ -1,3 +1,10 @@
+:root {
+  --color-primary: hsl(201deg 100% 35%);
+  --color-primary-accent: hsl(201deg 100% 50%);
+  --color-secondary: hsl(0deg 0% 0%);
+  --color-secondary-accent: hsl(0deg 0% 0%);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,4 +12,16 @@
 html,
 body {
   min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
